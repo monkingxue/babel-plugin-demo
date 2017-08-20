@@ -49,7 +49,7 @@ module.exports = function ({types: t}) {
 
       StringLiteral (path) {
         if (path.parentKey === 'key') return
-        path.replaceWith(t.identifier(`PropTypes.string`))
+        path.replaceWith(t.identifier('PropTypes.string'))
       },
 
       NumericLiteral (path) {
