@@ -1,4 +1,4 @@
-## babel-plugin-demo
+# babel-plugin-demo [![Build Status](https://travis-ci.org/monkingxue/babel-plugin-demo.svg?branch=master)](https://travis-ci.org/monkingxue/babel-plugin-demo)
 这是一个 demo 项目，实现了利用 `Babel` 的插件机制，将 JSON 文件转化为 React 的 `propTypes`，
 在输出文件时使用 `prettier` 对输出的代码进行了格式化
 ## 使用方式
